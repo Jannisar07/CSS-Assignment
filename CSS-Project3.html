@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Project 3</title>
+    <!-- below link for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            height: 825px;
+
+        }
+        .left{
+            width: 50%;
+            background-color: hsl(0deg 0% 12.55%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: right;
+            padding-right: 100px;
+            position: relative;
+
+            
+            
+        }
+         .left h1{
+            color: white;
+            /* padding-bottom: 20px; */
+            border-right : 5px solid red ;
+            padding-right: 20px;
+         }
+         .left h2{
+            color: red;
+            padding-bottom: 20px;
+            padding-top: 50px;
+
+            
+         }
+         .left p{
+            color:hsl(0deg 0% 30.59%) ;
+            padding-left: 50px;
+            padding-bottom: 30px;
+        }
+        .Web{
+            padding-bottom: 30px;
+        }
+        .box1{
+            height: 60px;
+            width: 60px;
+            background-color: white;
+            position: absolute;
+            top: 280px;
+            right: -30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1 i{
+            font-size: 27px;
+            /* background-color: white;
+            padding: 15px;
+            border-radius: 100%; */
+        }
+        .box2{
+            height: 60px;
+            width: 60px;
+            background-color: white;
+            position: absolute;
+            top: 425px;
+            right: -30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2 i {
+            font-size: 27px;
+
+        }
+        .box3{
+            height: 60px;
+            width: 60px;
+            background-color: white;
+            position: absolute;
+            top: 600px;
+            right: -30px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3 i {
+            font-size: 27px;
+
+        }
+        .right{
+            width: 50%;
+            height: 100%;
+        }
+        .right img{
+            height: inherit;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+           <div class="Servics"> <h1>OUR SERVICES</h1></div>
+         <div class="Web">   <h2>WEB DISIGN</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex ut deleniti tenetur fuga, voluptate dolore, vel illum consequuntur doloribus quis corrupti! Fuga, quibusdam modi?.</P>
+        </div>
+        <div class="print"><h2>PRINT DISIGN</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex ut deleniti tenetur fuga, voluptate dolore, vel illum consequuntur doloribus quis corrupti! Fuga, quibusdam modi?.</P>
+        </div>
+        <div class="photo"><h2>PHOTOGRAPHY</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex ut deleniti tenetur fuga, voluptate dolore, vel illum consequuntur doloribus quis corrupti! Fuga, quibusdam modi?.</p>
+        </div>
+        <div class="box1"><i class="fa-solid fa-tv" style="color: #eb0000;"></i></div>
+        <div class="box2"><i class="fa fa-print" style="color: #fa0025;"></i></div>
+        <div class="box3"><i class="fa fa-camera" style="color: #ff0000;"></i></div>
+
+        </div>
+        <div class="right">
+            <img src="https://www.cnet.com/a/img/resize/ccef5642fdf26153fe643badf50966b5d1dcc555/hub/2022/10/26/f011b628-3114-4e33-b146-434f13daa92f/ipad-pro-12-9-2022.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Image">
+        </div>
+    </div>
+</body>
+</html>

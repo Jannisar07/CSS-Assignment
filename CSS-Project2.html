@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Project 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* below is icon code  */
+   
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: url(https://img.freepik.com/free-photo/green-sprouts-dark-soil-against-blurred-background-symbolizing-concept-growth-potential_90220-1462.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            height: 600px;
+            clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 95%, 0 76%);
+
+        }
+        section{
+            position: relative;
+
+        }
+        .box{
+            height: 60px;
+            width: 60px;
+            background-color: grey;
+            position: absolute;
+            top: 540px;
+            left: 750px;
+            border-radius: 40px;
+        }
+        .header{
+            width: 100%;
+            /* height: 60px; */
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box i{
+            font-size: 25px;
+        }
+        .image{
+            height: 60px;
+            
+            padding-left: 250px;
+            
+        }
+        .image img{
+            height: inherit;
+            width: 100%;
+        }
+        .TEXT{
+            padding-left: 170px;
+        }
+        .TEXT span{
+            padding-right: 30px;
+            color: white;
+            
+        }
+        .TEXT span:nth-child(1){
+            color: red;
+            padding-bottom: 15px;
+            border-bottom: 1px solid red;
+            border-
+        }
+        .line2{
+            width: 100%;
+            margin-top: 120px;
+            text-align: center;
+        }
+        .line2 h3{
+            color: white;
+        }
+        .line2 h1{
+            letter-spacing: 5px;
+            padding-top: 10px;
+            color: white;
+
+        }
+        .para{
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+
+         
+        }
+        .button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 90px;
+        }
+        .GetStarted{
+            margin-right: 20px;
+        }
+        .GetStarted span{
+            background-color: rgb(235, 68, 68);
+            padding: 15px 35px;
+            color: white;
+        }
+        .LearnMore span{
+            border: 1px solid white;
+            padding: 15px 35px;
+            color: white;
+
+        }
+        .boxMain{
+            width: 80%;
+            display: flex;
+            margin: 5% auto;
+            /* align-content: center; */
+            /* justify-content: space-around; */
+
+        }
+        .box1{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+
+            text-align: center;
+        }
+        .box1 h3{
+            color: black;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .rotateBox1{
+            
+            height: 60px;
+            width: 60px;
+            border: 1px solid black;
+            transform: rotate(0deg);
+            transition-property: all;
+            transition-duration: 1s;
+            /* transition-delay: 1s; */
+            /* transition-property: linear; */
+        }
+        .rotateBox1:hover{
+            transform: rotate(120deg);
+            
+        }
+        .rotateBox1 i{
+            padding-top: 20px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+<div class="container">
+
+   <div class="header">
+    <div class="image">
+    <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="">
+    </div>   <!-- image div end here -->
+
+    <div class="TEXT">
+        <span>HOME</span>
+        <span>ABOUT US</span>
+        <span>PORTFOLOIO</span>
+        <span>PRICING</span>
+        <span>TEAM</span>
+        <span>BLOG</span>
+        <span>CONTACT</span>
+        </div>
+ </div><!-- header div ends here  -->
+
+<div class="line2">
+    <h3>Our Clients Are Our First Priority</h3>
+    <h1>WELCOME TO SKY</h1>
+    
+ </div> <!--line2 div end here  -->
+
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ex aliquam pariatur mollitia id, officiis <br> eaque dolores aliquid ad voluptatum, repellendus impedit ipsa accusamus optio ipsam quo, inventore harum suscipit <br> esse dolorem odit perspiciatis.</p>
+     </div> <!-- para div end here -->
+
+     <div class="button">
+        <div class="GetStarted"> <span>Get started now</span></div>
+        <div class="LearnMore"><span> LEARN MORE</span></div>
+     </div>
+     </div> <!--container dic ends here  -->
+    </section>
+
+    <div class="box"> <i class="fa-solid fa-anchor" style="color: #ff0000;"></i></div>
+ <!-- code for 4 boxs   -->
+ <div class="boxMain">
+    <div class="box1">
+        <div class="rotateBox1"><i class="fa-solid fa-infinity" style="color: #ff0026;"></i></div> 
+        <h3>SLEEK DESIGN</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid temporibus minus, </p>
+
+    </div>
+    
+    <div class="box1">
+        <div class="rotateBox1"><i class="fa fa-light fa-heart" style="color: #e60000;"></i></div> 
+        <h3>SLEEK DESIGN</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid temporibus minus, </p>
+
+    </div>
+    
+    <div class="box1">
+        <div class="rotateBox1"><i class="fa  fa-lightbulb" style="color: #ff0000;"></i></div> 
+        <h3>SLEEK DESIGN</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid temporibus minus, </p>
+
+    </div>
+    
+    <div class="box1">
+        <div class="rotateBox1"><i class="fa-sharp fa-regular fa-comments" style="color: #fa0000;"></i></div> 
+        <h3>SLEEK DESIGN</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid temporibus minus, </p>
+    </div>
+ </div>  <!--mainbox div end  -->
+</body>
+</html>

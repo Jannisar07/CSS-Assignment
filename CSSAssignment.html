@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignement</title>
+</head>
+<body>
+    <center><h1>CSS Assignment</h1></center><br>
+    <h2> Question 1:  What are the benefits of using CSS?</h2>
+   
+    <h2>Answer:</h2>
+    <p>1. Improved page loading speed. When there is more code on a page, it takes longer to load.<br>
+      2.  Second, a better user experience. CSS not only allows for user-friendly formatting, but it also makes online sites easier to read.
+        3. A shorter time of development.<br>
+
+        4. Simple Formatting Changes.<br>
+        5. Device-to-Device Compatibility.</p>
+        <hr>
+        <h2>Question 2: What are the disadvantages of CSS?</h2>
+        <h2>Answer:</h2>
+        a. Confusion caused by multiple CSS levels. Beginners are more vulnerable to this issue.<br>
+    b.Problems with Different Browsers. Different web browsers work in different ways.<br>
+    c.Concerns about safety. Security is critical in today's tech- and data-driven environment.<br>
+    d.More effort for the developers.<br><br>
+    <hr>
+    <h2> Question 3: What is the difference between CSS2 and CSS3? </h2>
+    <p>The most significant distinction between CSS2 and CSS3 is that CSS3 is now divided into modules. Because each module goes through the W3C individually, there is a broader spectrum of browser support. To ensure compatibility, test your CSS3 pages in as many browsers and operating systems as feasible..</p>
+    <br><hr>
+        
+    <h2> Question 4: Name a few CSS style components</h2>
+    <h2>Answer:</h2>
+    <p><b> Selector:</b> class name, id name or element name that is target</p>
+    <p><b>Attribute:</b> name of the attribute you want to style for example border, color, background, position etc.</p>
+    <p><b>Value of Property:</b> value that will be assigned to attribute.</p>
+    <h2><u>Example:</u></h2>
+    <h3>selector</h3>
+     <p>- *universal selector <br>
+        - # id selector<br>
+        - .class selector<br>
+        - element name(type name) selector
+    </p>
+    <hr>
+
+    <h2> Question 5:  What do you understand by CSS opacity?</h2>
+    <h2>Answer:</h2>
+    <p>The opacity CSS property controls an element's opacity. The inverse of transparency, opacity, relates to how much of the content behind an element is obscured.
+        Opacity values are always floating numbers, with a minimum of 0 and a maximum of 1.
+        When you use the opacity property to give transparency to an element's background, all of its child elements become translucent as well.</p>
+    <h2><u>Example:</u></h2>
+    &lt;p style="width:200px; height: 200px; border: 1px solid black; background-color: rgba(138, 194, 54,);"&gt;&lt;/p&gt;
+    <p style="width:200px; height: 200px; border: 1px solid black; background-color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facere beatae accusantium! Expedita deserunt iusto ratione deleniti ullam soluta eos? </p>
+    &lt;p style="width:150px; height: 150px; border: 1px solid black; background-color: rgba(138, 194, 54, <u> 0.5</u>(opacity));"&gt;&lt;/p&gt;
+    <p style="width:200px; height: 200px; border: 1px solid black; background-color: rgb(240, 80, 80);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptates, sit voluptate nemo totam inventore nostrum officia vero exercitationem a! </p>
+    <br><hr>
+
+    <h2> Question 6: How can the background color of an element be changed?</h2>
+    <h2>Answer </h2>
+    <p>To add a background colour to HTML, use the CSS background-color property. Change the value of the style attribute to the desired colour name or code. Include this style attribute in an HTML element like a heading, span tag, table, or div.
+
+        In CSS, the background-color property is used to specify the colour of an element's background. It uses solid colours for the background of the element. An element's background encompasses the entire size, including padding and border but excluding margin. It is applicable to all HTML components.</p>
+    
+    <h2><u>Example:</u></h2>
+    <ul>
+    <li>background-color: black;</li> 
+    <li>background-color: #ddaefa;</li>
+</ul>
+    <hr>    
+
+    <h2> Question 7:  How can image repetition of the backup be controlled? </h2>
+    <h2>Answer </h2>
+    <p>The background-repeat attribute is used to manage the repetition of a picture in the background.
+        .</p>
+    <h3>Code :</h3>
+    <h4>background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;</h4>
+    <h2><u>Example:</u></h2>
+    &lt;p style="width:250px; height:250px; border: 1px solid black; background-image: url(The Image URL); background-size: 100px;<b> background-repeat:repeat;</b>"&gt;&lt;/p&gt;
+    <p style="width:250px; height:250px; border: 1px solid black; background-image: url(data:image/jpeg;base64,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); background-size: 100px; background-repeat:repeat;"></p>
+<br>
+<hr>
+
+
+<h2> Question 8:  What is the use of the background-position property?</h2>
+<h2>Answer </h2>
+<p>The background-position parameter specifies the position of the backdrop picture at the start. The background image is normally placed in the top-left corner of the webpage..</p>
+<p>You can set the following positions:</p>
+<p>1.center<br>
+   2.left-top<br>
+   3.left-bottom<br>
+   4.right-top<br>
+   5.right-bottom</p>
+<h2><u>Example:</u></h2>
+
+  &lt;p style="width:250px; height:250px; border: 1px solid black; background-image: url(Image URL); background-size: 100px; background-repeat: no-repeat;<b> background-position: center;</b>"&gt;&lt;/p&gt;
+  <p style="width:250px; height:250px; border: 1px solid black; background-image: url(data:image/jpeg;base64,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); background-size: 100px; background-repeat: no-repeat; background-position: center;"></p>
+
+<hr>
+
+<h2> Question 9: Which property controls the image scroll in the background?</h2>
+    <h2>Answer </h2>
+    <p>The background-attachment attribute is used to control the scrolling of a picture in the background.
+    </p>
+    1.background-attachment: fixed;<br>
+    2.background-attachment:scroll;<br>
+    3.background-attachment:local;
+
+    <h2><u>Example:</u></h2>
+    &lt;p style="width:350px;  border: 1px solid black; color: aliceblue; background-image: url(Image URL); background-size: cover; background-repeat:no-repeat; background-attachment: fixed;"&gt;&lt;/p&gt;
+    <p style="width:350px;  border: 1px solid black; color: aliceblue; background-image: url(data:image/jpeg;base64,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); background-size: cover; background-repeat:no-repeat; background-attachment: fixed;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maxime nemo nulla dolores minima doloremque tempore delectus recusandae facilis velit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laborum veniam unde tenetur. Iure necessitatibus sunt explicabo soluta exercitationem temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores non autem dolor cumque ipsam nemo? Veritatis nulla possimus impedit facere quas architecto ipsam aut vel corrupti ratione! Optio, dicta non odio aut suscipit modi nam perferendis voluptatum quae similique soluta eveniet, quam, dolorum possimus sit exercitationem. Deleniti, facilis. Rerum, delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem . </p>
+
+<hr>
+<h2> Question 10: Why should background and color be used as separate properties?</h2>
+    <h2>Answer </h2>
+    <p>There are two variables at work here: It improves the readability of style sheets. The background property in CSS is a tricky attribute that becomes even more problematic when combined with colour.</p>
+<p>
+   The primary distinction between the CSS background and background-color properties is that the background property is an abbreviation for all background attributes. The background-color property, on the other hand, is a subset of the background property, which is used to set the background colour.</p>
+    <hr>
+
+    <h2> Question 11: How to center block elements using CSS1?</h2>
+    <h2>Answer </h2>
+    <p> Set the margin-left and margin-right properties to auto and the width to some explicit value:</p>
+    <h2><u>Example:</u></h2>
+    &lt;p style="width: 180px; height: 50px; font-size: 20px; border: 5px solid black; <b> margin: 2% auto;</b>"&gt;Center &lt;/p&gt;
+    <p style="width: 180px; height: 50px; font-size: 20px; border: 5px solid red;  margin: 2% auto;">Center</p>
+
+    <hr>
+
+    <h2> Question 12: How to maintain the CSS specification?</h2>
+    <h2>Answer </h2>
+    <p>CSS specifications are maintained by the World Wide Web Consortium (W3C). Although CSS is supported by all browsers, the version of the specification that is supported contains serious problems. Some browsers even include proprietary (vendor) prefixes and their own standard implementation..</p>
+    <hr>
+
+    <h2> Question 13:  What are the ways to integrate CSS as a web page?</h2>
+    <h2>Answer</h2>
+    <p>There are three ways to include CSS into web sites.<br><br>
+
+        1. The inline approach is used to insert style sheets into an HTML document.<br><br>
+        
+        2. Embedded/internal technique - This method is used to apply a distinct style to a single page.<br><br>
+        
+        3. Linked/Imported/External approach - This method is utilised when you want to make changes on numerous pages at the same time.<br><br>
+    </p>
+    <hr>
+
+    <h2> Question 14: What is embedded style sheets?</h2>
+    <h2>Answer  </h2>
+    <p> CSS that is embedded (internal) is used to apply CSS to a particular document or page. It has the potential to alter all of the page's elements. It is written within the style tag of the HTML head section.</p>
+    <h2><u>Example:</u></h2>
+    <h3>&lt;style&gt;<br>  
+        p{color:green}<br>  
+        &lt;/style&gt; </h3>
+        <hr>
+
+        <h2> Question 15: What are the external style sheets? </h2>
+    <h2>Answer  </h2>
+    <p>An external style sheet is a distinct CSS file that may be accessed by creating a link in the webpage's head section.
+
+       </p>
+    <p> CSS is applied to multiple pages or all pages using external CSS. In this section, we write all of the CSS code in a css file. Its extension must be.css, such as style.css.</p>
+   <hr>
+
+   <h2> Question 16:  What are the advantages and disadvantages of using external style sheets? </h2>
+    <h2>Answer</h2>
+    <h3>Advantages</h3>
+    <p>
+    1. They allow you to control the styles of numerous documents from a single file.<br><br>
+2.Classes can be developed for use on a variety of HTML element types in a variety of publications.<br><br>
+3.Selector and grouping methods can be utilised to apply styles in complex scenarios.<br><br>
+4.In External Style Sheets, Classes can be created for use on a variety of HTML element types in a variety of site formats.<br><br>
+</p>
+<h3>Disadvantages</h3>
+1. An additional download is required to import style information for each document.<br><br>
+2. Rendering the document may be impossible until the external style sheet is loaded.<br><br>
+3. It is not feasible for a small number of style definitions.<br><br>
+4.The file's execution may be postponed until the external style sheet is loaded.<br><br>
+<hr>
+
+<h2><u><center> Question 17: </center></u></h2><br>
+    <h2>(17) What is the meaning of the CSS selector?</h2>
+    <p>A CSS selector is the initial component of a CSS Rule. It is a collection of words and patterns that tell the browser which HTML elements to select in order to apply the CSS property values in the rule to them.
+
+       </p>
+    <p> CSS selectors are used to choose which content to style. CSS selectors are a component of the CSS rule set. CSS selectors pick HTML components based on their id, class, type, attribute, and so on.</p>
+    <h2><u>Example:</u></h2>
+    <h3>body is a selector</h3>
+    &lt;style&gt;<br>
+    body{<br>
+        margine:0;<br>
+        padding:0;<br>
+    }<br>
+    &lt;/style&gt;<br>
+   <hr>
+
+   <h2> Question 18: What are the media types allowed by CSS? </h2>
+    <h2>Answer </h2>
+    <p>In media queries, the @media rule is used to apply various styles to different media types/devices. Many things can be checked with media queries, including the width and height of the viewport, as well as the width and height of the device..</p>
+    <p></p>
+    <h2><u>Example:</u></h2>
+    <p>&lt;style tyle = "text/css"&gt;<br>
+        @media print {<br>
+        body { font-size: 10pt }<br>
+     }<br>
+   
+     @media screen {<br>
+        body { font-size: 12pt }<br>
+     }<br>
+     @media screen, print {<br>
+        body { line-height: 1.2 }<br>
+     }<br> 
+     &lt;/style&gt;</p>
+     <hr>
+     <h2> Question 19:  What is the rule set?</h2>
+     <h2>Answer</h2>
+     <p>ne or more selectors and one or more declarations make up a CSS rule set. The selector(s), in this case h1, point to an HTML element. In this example, the declarations colour: blue and text-align: centre style the element with a property and value.</p>
+ <br>
+<hr>
+</body>
+</html>

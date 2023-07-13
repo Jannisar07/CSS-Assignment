@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Project4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 80%;
+            margin: 0 auto;
+            height: 750px;
+            background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(https://img.freepik.com/free-photo/homepage-seen-computer-screen_23-2149416726.jpg?size=626&ext=jpg&ga=GA1.1.1138088027.1687031625&semt=sph);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+ 
+            
+        }
+        .main h1{
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+        .main h3{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .main svg{
+            position: fixed;
+            bottom: 0;
+            width: 80%;
+        }
+        .main .box{
+            height: 70px;
+            width: 70px;
+            /* border-radius: 25px; */
+            /* background-color: white; */
+        }
+        .box img{
+            width: 100%;
+            height: inherit;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+     .bx1{
+            position: absolute;
+            bottom: 23%;
+            left: 100px;
+        }
+        .bx2{
+            position: absolute;
+            bottom: 22%;
+            left: 35%;
+        }
+        .bx3{
+            position: absolute;
+            bottom: 17%;
+            left: 55%;
+        }
+        .bx4{
+            position: absolute;
+            bottom: 14%;
+            left: 75%;
+        }
+        .bx5{
+            position: absolute;
+            bottom: 23%;
+            left: 90%;
+        }
+        .bx2:hover::after{
+            content: "WEB DESIGNER ";
+            color: red;
+            width: 120px;
+            display: inline-block;
+            position: absolute;
+            bottom: -80%;
+            right: 50%;
+            left: 50%;
+        
+          transform: translate(-50% , -50%);
+
+        }
+        .bx2:hover::before{
+            content: "UI/UX DESIGNER ";
+            color: white;
+            width: 200px;
+            display: inline-block;
+            position: absolute;
+            bottom: -120%;
+            right: 50%;
+            left: 50%;
+            /* background-color: black; */
+            text-align: center;
+        
+          transform: translate(-50% , -50%);
+
+        }
+                
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>OUR TEAM </h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas.</h3>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="0.3" d="M0,160L48,133.3C96,107,192,53,288,42.7C384,32,480,64,576,85.3C672,107,768,117,864,133.3C960,149,1056,171,1152,149.3C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <div class="box bx1"> <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph" alt=""></div>
+        <div class="box bx2"> <img src="https://img.freepik.com/free-photo/portrait-young-man-with-dark-curly-hair_176532-8137.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph" alt=""></div>
+        <div class="box bx3"> <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph" alt=""></div>
+        <div class="box bx4"> <img src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph" alt=""></div>
+        <div class="box bx5">
+            <img src="https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?size=626&ext=jpg&ga=GA1.2.1138088027.1687031625&semt=sph" alt="">
+        </div>
+        <!-- .bx$*4{box$} -->
+    </div>
+</body>
+</html>
